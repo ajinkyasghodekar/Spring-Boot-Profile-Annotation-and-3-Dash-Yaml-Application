@@ -1,0 +1,42 @@
+spring:
+     config:
+        use-legacy-processing: true
+#This is reguar key:value
+my:
+ emp:
+  eid: 1001
+  esal: 1000.00
+  ename: John
+  eloc: Hyderabad
+---
+#This is qa key:value
+my:
+ tml:
+  tid: 2001
+  tsal: 2000.00
+  tname: Harry
+  tloc: Pune
+  
+spring: 
+ profiles: qa
+---
+#This is dev key:value
+my:
+ mng:
+  mid: 3001
+  msal: 3000.00
+  mname: Park
+  mloc: Mumbai
+spring:
+ profiles: dev
+---
+#This is dev key:value
+my:
+ ceo:
+  cid: 4001
+  csal: 4000.00
+  cname: Mary
+  cloc: London
+  
+spring:
+ profiles: default
