@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import in.practice.ajinkya.employee.EmployeeData;
 
 @Component
+
 public class EmployeeRunner implements CommandLineRunner {
 
 	@Autowired

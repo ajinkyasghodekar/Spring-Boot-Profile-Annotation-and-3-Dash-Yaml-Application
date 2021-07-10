@@ -30,7 +30,7 @@ my:
 spring:
  profiles: dev
 ---
-#This is dev key:value
+#This is default key:value
 my:
  ceo:
   cid: 4001
